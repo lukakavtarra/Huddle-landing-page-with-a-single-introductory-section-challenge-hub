@@ -81,6 +81,6 @@ body {
     }
     .fab:hover{
         color:hsl(300, 69%, 71%);
-            transition:0.5s;
+        transition:0.5s;
             
     }
