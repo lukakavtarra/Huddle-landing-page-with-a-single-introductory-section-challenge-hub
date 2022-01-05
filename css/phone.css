@@ -1,0 +1,61 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        overflow: visible;
+    }
+    .flex-div {
+        display: flex;
+    }
+    .logo {
+        width: 137px;
+        margin: 40px 46px;
+    }
+    .main-img {
+        width: 240px;
+        margin: 0 0 0 0;
+    }
+    .flex-div {
+        display: flex;
+        flex-direction: column;
+    }
+    .text-positioning {
+        max-width: 265px;
+        margin: 42px 0 143px -1px;
+        text-align: center;
+    }
+    
+    
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+        line-height: 26px;
+    }
+    button {
+        background: white;
+        border: none;
+        border-radius: 40px;
+        padding: 7px 59px;
+        box-shadow: 5px 3px 16px -2px black;
+        cursor: pointer;
+        transition: 0.7s;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+    .logos {
+        position: absolute;
+        right: 0;
+        bottom: 0px;
+        margin: -49px 78px;
+        width: 164px;
+    }
+    .circlelogo {
+        color: white;
+        border: 0.5px solid;
+        border-radius: 50%;
+        padding: 5px;
+        text-align: center;
+        
+}
+}
