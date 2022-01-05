@@ -80,5 +80,7 @@ body {
         font-size: 12px;
     }
     .fab:hover{
-        color:hsl(300, 69%, 71%)
+        color:hsl(300, 69%, 71%);
+            transition:0.5s;
+            
     }
